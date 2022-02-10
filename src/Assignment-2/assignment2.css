@@ -5,3 +5,56 @@
 width: 100%;
 height: 100%;
 }
+.logo{
+    width: 90px;
+    height: 90px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.page-header{
+    height: 95px;
+    padding: 8px 18px;
+    width: calc(100% - 36px);
+    background-color: aliceblue;
+}
+input[name="search-bar-input"]{
+    height: 18px;
+    padding: 5px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    width: 200px;
+}
+.search-bar{
+    float: right;
+    margin-top: 31px;
+}
+.nav-bar{
+    height: 25%;
+    padding: 10px 0px;
+    width: 100%;
+}
+.nav-link{
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    line-height: 20px;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.content{
+    display: inline-block;
+    vertical-align: top;
+}
+.content-aside{
+    width: 18%;
+    height: calc(100 - 250px);
+}
+#main-content-section{
+    width: 60%;
+}
+.content ul{
+    list-style: none;
+}
